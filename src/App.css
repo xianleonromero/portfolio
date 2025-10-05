@@ -156,3 +156,43 @@ section {
   line-height: 1.9;            /* Espacio generoso entre líneas */
   margin-bottom: 1.5rem;       /* Espacio entre párrafos */
 }
+
+/* Grid de categorías de skills */
+.skills-grid {
+  display: grid;                           /* Usamos CSS Grid */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));  /* Columnas automáticas */
+  gap: 2rem;                               /* Espacio entre categorías */
+}
+
+/* Cada categoría de skill */
+.skill-category h3 {
+  font-size: 1.3rem;
+  color: #00f5ff;                          /* Cyan */
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+/* Contenedor de las etiquetas */
+.skill-tags {
+  display: flex;                           /* Flexbox */
+  flex-wrap: wrap;                         /* Si no caben, saltan a la siguiente línea */
+  gap: 0.8rem;                             /* Espacio entre etiquetas */
+}
+
+/* Cada etiqueta de tecnología */
+.skill-tag {
+  padding: 0.6rem 1.2rem;                  /* Espacio interno */
+  background: rgba(0, 245, 255, 0.1);      /* Fondo cyan semi-transparente */
+  border: 1px solid rgba(0, 245, 255, 0.3); /* Borde cyan */
+  border-radius: 4px;                      /* Esquinas redondeadas */
+  color: #8892b0;                          /* Texto gris */
+  font-size: 0.9rem;
+  transition: all 0.3s;                    /* Transición suave */
+}
+
+/* Hover en las etiquetas */
+.skill-tag:hover {
+  background: rgba(0, 245, 255, 0.2);      /* Fondo más visible */
+  color: #00f5ff;                          /* Texto cyan */
+  transform: translateY(-2px);             /* Sube un poco */
+}

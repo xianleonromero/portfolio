@@ -3,6 +3,7 @@ import './App.css'
 function App() {
   return (
     <div className="app">
+
       {/* Navbar - Barra de navegación */}
       <nav className="navbar">
         <a href="#home" className="logo">Inicio</a>
@@ -14,6 +15,7 @@ function App() {
           <li><a href="#contact">Contacto</a></li>
         </ul>
       </nav>
+
       {/* Hero - Sección principal */}
       <section id="home" className="hero">
         <div className="hero-content">
@@ -26,7 +28,8 @@ function App() {
           <a href="#projects" className="hero-cta">Ver proyectos</a>
         </div>
       </section>
-      {/* About - Nueva sección */}
+
+      {/* About*/}
       <section id="about" className="about">
         <h2 className="section-title">Sobre mí</h2>
         
@@ -42,6 +45,51 @@ function App() {
           </p>
         </div>
       </section>
+
+      {/* Skills*/}
+      <section id="skills" className="skills">
+        <h2 className="section-title">Tecnologías</h2>
+        
+        <div className="skills-grid">
+          <div className="skill-category">
+            <h3>Frontend</h3>
+            <div className="skill-tags">
+              <span className="skill-tag">React</span>
+              <span className="skill-tag">HTML</span>
+              <span className="skill-tag">CSS</span>
+              <span className="skill-tag">JavaScript</span>
+            </div>
+          </div>
+
+          <div className="skill-category">
+            <h3>Backend</h3>
+            <div className="skill-tags">
+              <span className="skill-tag">Java</span>
+              <span className="skill-tag">PHP</span>
+              <span className="skill-tag">Python</span>
+            </div>
+          </div>
+
+          <div className="skill-category">
+            <h3>Bases de datos</h3>
+            <div className="skill-tags">
+              <span className="skill-tag">MySQL</span>
+              <span className="skill-tag">PostgreSQL</span>
+            </div>
+          </div>
+
+          <div className="skill-category">
+            <h3>Herramientas</h3>
+            <div className="skill-tags">
+              <span className="skill-tag">Git</span>
+              <span className="skill-tag">GitHub</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      
     </div>
   )
 }
