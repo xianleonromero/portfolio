@@ -128,3 +128,31 @@ body {
   color: #0a0e27;
   box-shadow: 0 0 30px rgba(0, 245, 255, 0.4);  /* Brillo */
 }
+
+/* Secciones generales */
+section {
+  padding: 8rem 3rem;          /* Espacio arriba/abajo e izquierda/derecha */
+  max-width: 1400px;           /* Ancho máximo del contenido */
+  margin: 0 auto;              /* Centrar la sección */
+}
+
+/* Título de sección "Sobre mí" */
+.section-title {
+  font-size: 3rem;             /* Grande */
+  font-weight: 700;            /* Negrita */
+  margin-bottom: 4rem;         /* Mucho espacio debajo */
+  color: #e0e6ed;              /* Blanco grisáceo */
+}
+
+/* Contenedor del texto About */
+.about-content {
+  max-width: 800px;            /* No muy ancho para legibilidad */
+}
+
+/* Párrafos del About */
+.about-content p {
+  font-size: 1.1rem;
+  color: #8892b0;              /* Gris */
+  line-height: 1.9;            /* Espacio generoso entre líneas */
+  margin-bottom: 1.5rem;       /* Espacio entre párrafos */
+}
