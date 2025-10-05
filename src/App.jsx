@@ -161,11 +161,35 @@ function App() {
           </div>
         </div>
       </section>
-      
+
+      {/* Contact */}
+      <section id="contact" className="contact">
+        <h2 className="section-title">Contacto</h2>
+        
+        <div className="contact-content">
+          
+          <a href="mailto:leonromeroxian@gmail.com" className="contact-email">
+            leonromeroxian@gmail.com
+          </a>
+          
+          <div className="social-links">
+            <a href="https://github.com/xianleonromero" target="_blank" rel="noopener noreferrer">
+              GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/xián-león-romero-7a57b7352/" target="_blank" rel="noopener noreferrer">
+              LinkedIn
+            </a>
+          </div>
+        </div>
+        {/* Footer */}
+        <footer className="footer">
+          <p>Diseñado y desarrollado por Xián León Romero</p>
+        </footer>
+      </section>      
 
 
 
-      
+
     </div>
   )
 }

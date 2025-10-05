@@ -275,3 +275,60 @@ section {
   background: #00f5ff;
   color: #0a0e27;
 }
+
+/* Sección Contact */
+.contact {
+  text-align: center;                      /* Todo centrado */
+}
+
+/* Contenedor del contenido */
+.contact-content {
+  max-width: 700px;
+  margin: 0 auto;                          /* Centrado */
+}
+
+/* Email destacado */
+.contact-email {
+  font-size: 2rem;                         /* Grande */
+  color: #00f5ff;                          /* Cyan */
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;                   /* Para poder aplicar transform */
+  margin-bottom: 2rem;
+  transition: all 0.3s;
+}
+
+/* Hover en el email */
+.contact-email:hover {
+  transform: translateY(-3px);             /* Sube un poco */
+  text-shadow: 0 0 20px rgba(0, 245, 255, 0.4); /* Brillo */
+}
+
+/* Contenedor de redes sociales */
+.social-links {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;                 /* Centrar los links */
+}
+
+/* Enlaces de redes sociales */
+.social-links a {
+  color: #8892b0;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+/* Hover en redes sociales */
+.social-links a:hover {
+  color: #00f5ff;
+}
+
+/* Footer */
+.footer {
+  padding: 3rem;
+  text-align: center;
+  color: #8892b0;
+  font-size: 0.9rem;
+  border-top: 1px solid #1e293b;           /* Línea sutil arriba */
+}
