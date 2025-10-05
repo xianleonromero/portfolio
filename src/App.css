@@ -196,3 +196,82 @@ section {
   color: #00f5ff;                          /* Texto cyan */
   transform: translateY(-2px);             /* Sube un poco */
 }
+
+/* Grid de proyectos */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Columnas automáticas */
+  gap: 2rem;                               /* Espacio entre tarjetas */
+}
+
+/* Tarjeta de cada proyecto */
+.project-card {
+  background: #1e293b;                     /* Fondo oscuro */
+  padding: 2rem;                           /* Espacio interno */
+  border-radius: 12px;                     /* Esquinas redondeadas */
+  border: 1px solid #334155;               /* Borde sutil */
+  transition: all 0.3s;                    /* Transición suave */
+}
+
+/* Hover en la tarjeta */
+.project-card:hover {
+  transform: translateY(-5px);             /* Sube un poco */
+  border-color: #00f5ff;                   /* Borde cyan */
+  box-shadow: 0 10px 30px rgba(0, 245, 255, 0.2); /* Sombra con brillo */
+}
+
+/* Título del proyecto */
+.project-card h3 {
+  font-size: 1.5rem;
+  color: #e0e6ed;
+  margin-bottom: 1rem;
+}
+
+/* Descripción del proyecto */
+.project-description {
+  color: #8892b0;                          /* Gris */
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+/* Contenedor de tecnologías */
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;                         /* Saltan a la siguiente línea si no caben */
+  gap: 0.7rem;
+  margin-bottom: 2rem;
+}
+
+/* Etiquetas de tecnología */
+.tech-tag {
+  padding: 0.4rem 0.9rem;
+  background: rgba(0, 245, 255, 0.1);      /* Fondo cyan transparente */
+  color: #00f5ff;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+/* Contenedor de enlaces */
+.project-links {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Enlaces de GitHub y Demo */
+.project-links a {
+  padding: 0.6rem 1.2rem;
+  background: transparent;
+  color: #00f5ff;
+  border: 2px solid #00f5ff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+/* Hover en los enlaces */
+.project-links a:hover {
+  background: #00f5ff;
+  color: #0a0e27;
+}

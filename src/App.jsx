@@ -88,6 +88,82 @@ function App() {
         </div>
       </section>
 
+      {/* Projects */}
+      <section id="projects" className="projects">
+        <h2 className="section-title">Proyectos</h2>
+        
+        <div className="projects-grid">
+          
+          {/* Proyecto 1: Weather App */}
+          <div className="project-card">
+            <h3>Weather App</h3>
+            <p className="project-description">
+              Aplicación del clima que consume la API de OpenWeatherMap. 
+              Permite buscar el tiempo actual de cualquier ciudad.
+            </p>
+            <div className="project-tech">
+              <span className="tech-tag">React</span>
+              <span className="tech-tag">API REST</span>
+              <span className="tech-tag">CSS</span>
+            </div>
+            <div className="project-links">
+              <a href="https://github.com/xianleonromero/weather-app" target="_blank" rel="noopener noreferrer">
+                GitHub
+              </a>
+              <a href="https://weather-1zghsuhbk-xianleonromeros-projects.vercel.app" target="_blank" rel="noopener noreferrer">
+                Demo
+              </a>
+            </div>
+          </div>
+
+          {/* Proyecto 2: Todo App */}
+          <div className="project-card">
+            <h3>Todo App</h3>
+            <p className="project-description">
+              Gestor de tareas con filtros y persistencia de datos. 
+              Permite crear, completar y eliminar tareas.
+            </p>
+            <div className="project-tech">
+              <span className="tech-tag">React</span>
+              <span className="tech-tag">localStorage</span>
+              <span className="tech-tag">CSS</span>
+            </div>
+            <div className="project-links">
+              <a href="https://github.com/xianleonromero/todo-app" target="_blank" rel="noopener noreferrer">
+                GitHub
+              </a>
+              <a href="https://todo-n69r8bj3r-xianleonromeros-projects.vercel.app" target="_blank" rel="noopener noreferrer">
+                Demo
+              </a>
+            </div>
+          </div>
+
+          {/* Proyecto 3: Movie Database */}
+          <div className="project-card">
+            <h3>Movie Database</h3>
+            <p className="project-description">
+              Buscador de películas usando la API de OMDb. 
+              Muestra pósters, títulos y detalles de películas.
+            </p>
+            <div className="project-tech">
+              <span className="tech-tag">React</span>
+              <span className="tech-tag">OMDb API</span>
+              <span className="tech-tag">CSS Grid</span>
+            </div>
+            <div className="project-links">
+              <a href="https://github.com/xianleonromero/movie-database" target="_blank" rel="noopener noreferrer">
+                GitHub
+              </a>
+              <a href="https://movie-database-kyrgw6wgf-xianleonromeros-projects.vercel.app" target="_blank" rel="noopener noreferrer">
+                Demo
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+
 
       
     </div>
