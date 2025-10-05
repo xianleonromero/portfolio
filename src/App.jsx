@@ -113,7 +113,7 @@ function App() {
               <a href="https://github.com/xianleonromero/weather-app" target="_blank" rel="noopener noreferrer">
                 GitHub
               </a>
-              <a href="https://weather-bm8twucav-xianleonromeros-projects.vercel.app" target="_blank" rel="noopener noreferrer">
+              <a href="https://xianleonromero.github.io/weather-app/" target="_blank" rel="noopener noreferrer">
                 Demo
               </a>
             </div>
@@ -135,7 +135,7 @@ function App() {
               <a href="https://github.com/xianleonromero/todo-app" target="_blank" rel="noopener noreferrer">
                 GitHub
               </a>
-              <a href="https://todo-n69r8bj3r-xianleonromeros-projects.vercel.app" target="_blank" rel="noopener noreferrer">
+              <a href="https://xianleonromero.github.io/todo-app/" target="_blank" rel="noopener noreferrer">
                 Demo
               </a>
             </div>
@@ -157,7 +157,7 @@ function App() {
               <a href="https://github.com/xianleonromero/movie-database" target="_blank" rel="noopener noreferrer">
                 GitHub
               </a>
-              <a href="https://movie-database-kyrgw6wgf-xianleonromeros-projects.vercel.app" target="_blank" rel="noopener noreferrer">
+              <a href="https://xianleonromero.github.io/movie-database/" target="_blank" rel="noopener noreferrer">
                 Demo
               </a>
             </div>
