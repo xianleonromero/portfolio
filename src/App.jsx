@@ -14,8 +14,18 @@ function App() {
           <li><a href="#contact">contact</a></li>
         </ul>
       </nav>
-
-      <h1>Mi Portfolio</h1>
+      {/* Hero - Sección principal */}
+      <section id="home" className="hero">
+        <div className="hero-content">
+          <span className="hero-label">Hola, soy</span>
+          <h1>Xián León Romero</h1>
+          <p className="hero-subtitle">Full Stack Developer</p>
+          <p className="hero-description">
+            Desarrollo aplicaciones web y móviles con React, Java y más tecnologías modernas
+          </p>
+          <a href="#projects" className="hero-cta">Ver proyectos</a>
+        </div>
+      </section>
     </div>
   )
 }
