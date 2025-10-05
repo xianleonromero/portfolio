@@ -17,3 +17,44 @@ body {
 .app {
   min-height: 100vh;
 }
+
+/* Navbar - Barra de navegación fija arriba */
+.navbar {
+  position: fixed;        /* Queda fijo al hacer scroll */
+  top: 0;                 /* Pegado arriba */
+  width: 100%;            /* Ancho completo */
+  background: rgba(10, 14, 39, 0.9);  /* Fondo semi-transparente */
+  padding: 1.5rem 3rem;   /* Espacio interno */
+  display: flex;          /* Flexbox para alinear elementos */
+  justify-content: space-between;  /* Logo a la izquierda, menú a la derecha */
+  align-items: center;    /* Centrar verticalmente */
+  z-index: 1000;          /* Por encima de todo */
+}
+
+/* Logo */
+.logo {
+  font-size: 1.3rem;      /* Tamaño de fuente */
+  font-weight: 700;       /* Negrita */
+  color: #00f5ff;         /* Color cyan */
+  text-decoration: none;  /* Sin subrayado */
+}
+
+/* Lista del menú */
+.nav-menu {
+  display: flex;          /* Los items en fila */
+  list-style: none;       /* Sin viñetas */
+  gap: 3rem;              /* Espacio entre items */
+}
+
+/* Links del menú */
+.nav-menu a {
+  color: #8892b0;         /* Color gris */
+  text-decoration: none;  /* Sin subrayado */
+  font-weight: 500;       /* Semi-negrita */
+  transition: color 0.3s; /* Transición suave al hacer hover */
+}
+
+/* Hover en los links */
+.nav-menu a:hover {
+  color: #00f5ff;         /* Cambia a cyan al pasar el mouse */
+}
