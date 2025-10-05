@@ -169,7 +169,7 @@ function App() {
       <section id="contact" className="contact">
         <h2 className="section-title">Contacto</h2>
         <p className="contact-text">
-          Desarrollador Full Stack disponible para proyectos y colaboraciones.
+          Desarrollador disponible para proyectos y colaboraciones.
         </p>
         <div className="contact-content">
         <a 
