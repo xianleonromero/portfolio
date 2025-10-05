@@ -324,6 +324,14 @@ section {
   color: #00f5ff;
 }
 
+/* Texto introductorio contacto */
+.contact-text {
+  font-size: 1.3rem;
+  color: #8892b0;
+  margin-bottom: 3rem;
+  line-height: 1.8;
+}
+
 /* Footer */
 .footer {
   padding: 3rem;

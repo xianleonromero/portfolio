@@ -10,7 +10,7 @@ function App() {
         
         <ul className="nav-menu">
           <li><a href="#about">Sobre mí</a></li>
-          <li><a href="#skills">Skills</a></li>
+          <li><a href="#skills">Habilidades</a></li>
           <li><a href="#projects">Proyectos</a></li>
           <li><a href="#contact">Contacto</a></li>
         </ul>
@@ -21,9 +21,10 @@ function App() {
         <div className="hero-content">
           <span className="hero-label">Hola, soy</span>
           <h1>Xián León Romero</h1>
-          <p className="hero-subtitle">Full Stack Developer</p>
+          <p className="hero-subtitle">Desarrollador en formación</p>          
           <p className="hero-description">
-            Desarrollo aplicaciones web y móviles con React, Java y más tecnologías modernas
+            Especializado en backend con Java y Python. Explorando 
+            desarrollo frontend con React para ampliar mi stack tecnológico.
           </p>
           <a href="#projects" className="hero-cta">Ver proyectos</a>
         </div>
@@ -34,15 +35,17 @@ function App() {
         <h2 className="section-title">Sobre mí</h2>
         
         <div className="about-content">
-          <p>
-            Soy desarrollador con formación en Desarrollo de Aplicaciones Multiplataforma (DAM) 
-            y Desarrollo de Aplicaciones Web (DAW). Me apasiona crear soluciones tecnológicas 
-            que combinen funcionalidad y diseño.
-          </p>
-          <p>
-            Mi experiencia abarca desde aplicaciones móviles nativas hasta aplicaciones web modernas, 
-            siempre buscando las mejores prácticas y tecnologías actuales.
-          </p>
+        <p>
+          Técnico Superior en Desarrollo de Aplicaciones Multiplataforma, actualmente cursando 
+          DAW para complementar mi formación en desarrollo web. Cuento con conocimientos sólidos 
+          en backend (Java, Python, PHP) y bases de datos, ahora enfocándome en el ecosistema 
+          frontend moderno.
+        </p>
+        <p>
+          Mi formación me permite abordar proyectos desde diferentes ángulos: aplicaciones móviles, 
+          servicios backend y ahora interfaces web. Aprendo rápido y me adapto a nuevas tecnologías 
+          según las necesidades del proyecto.
+        </p>
         </div>
       </section>
 
@@ -110,7 +113,7 @@ function App() {
               <a href="https://github.com/xianleonromero/weather-app" target="_blank" rel="noopener noreferrer">
                 GitHub
               </a>
-              <a href="https://weather-1zghsuhbk-xianleonromeros-projects.vercel.app" target="_blank" rel="noopener noreferrer">
+              <a href="https://weather-bm8twucav-xianleonromeros-projects.vercel.app" target="_blank" rel="noopener noreferrer">
                 Demo
               </a>
             </div>
@@ -165,12 +168,18 @@ function App() {
       {/* Contact */}
       <section id="contact" className="contact">
         <h2 className="section-title">Contacto</h2>
-        
+        <p className="contact-text">
+          Desarrollador Full Stack disponible para proyectos y colaboraciones.
+        </p>
         <div className="contact-content">
-          
-          <a href="mailto:leonromeroxian@gmail.com" className="contact-email">
-            leonromeroxian@gmail.com
-          </a>
+        <a 
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=leonromeroxian@gmail.com"
+          className="contact-email"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          leonromeroxian@gmail.com
+        </a>
           
           <div className="social-links">
             <a href="https://github.com/xianleonromero" target="_blank" rel="noopener noreferrer">
@@ -181,11 +190,12 @@ function App() {
             </a>
           </div>
         </div>
-        {/* Footer */}
-        <footer className="footer">
-          <p>Diseñado y desarrollado por Xián León Romero</p>
-        </footer>
-      </section>      
+      </section>
+
+      {/* Footer */}
+      <footer className="footer">
+        <p>Diseñado y desarrollado por Xián León Romero</p>
+      </footer>      
 
 
 
